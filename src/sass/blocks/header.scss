@@ -1,0 +1,16 @@
+.header {
+
+  background: url('../img/bg.jpg')  100% 0 no-repeat #373c52;
+  background: url('../img/pattern.jpg') 0 100% repeat-;
+
+  height: 660px;
+}
+.header__wrapper {
+  background-color: #1d2126;
+}
+.header__logo {
+  float: left;
+
+  width: 100px;
+  padding: 30px 0;
+}

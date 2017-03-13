@@ -1,0 +1,26 @@
+body {
+  min-width: 320px;
+
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 24px;
+
+  color: #000000;
+  background-color: #ffffff;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.visually-hidden {
+	position: absolute;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
