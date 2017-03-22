@@ -1,15 +1,15 @@
 .main-menu {
-  float: right;
+  display: flex;
+  justify-content: flex-end;
 
 
   width: 650px;
   margin: 0;
+  margin-left: 300px;
   padding: 0;
+  padding-top: 20px;
 }
 .main-menu__item {
-  display: inline-block;
-
-  font-size: 0;
   list-style: none;
 }
 .main-menu__list {

@@ -1,0 +1,42 @@
+.contact {
+  @include clearfix;
+
+  position: relative;
+}
+.contact__title {
+  position: relative;
+
+  margin: 60px auto;
+
+  font-size: 36px;
+  line-height: 42px;
+
+  text-transform: uppercase;
+  color: $main-title-color;
+
+  &::before {
+    position: absolute;
+    content: '';
+    left: -5px;
+    top: 5px;
+
+    height: 35px;
+    border-left: 10px solid #e1e6ea;
+
+  }
+}
+.contact__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 555px;
+}
+.contact__wrapper {
+  display: flex;
+}
+.contact__form {
+  width: 555px;
+  position: absolute;
+  right: 600px;
+  bottom: 100px;
+}

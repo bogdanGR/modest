@@ -1,0 +1,20 @@
+.about {
+  @include clearfix;
+}
+.decription__texts {
+  float: left;
+  width: 655px;
+}
+.about__social-links {
+  float: left;
+  width: 350px;
+}
+.about__sidebar {
+  float: right;
+  width: 460px;
+  margin-left: 15px;
+}
+.about__list {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,27 @@
+.our-action__wrapper {
+  margin-bottom: 140px;
+}
+.our-action__inner-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+
+  width: 263px;
+  margin-right: 25px;
+
+  font-size: 0;
+
+  &:nth-child(4n + 4) {
+    margin-right: 0;
+  }
+}
+.our-action__text {
+  width: 260px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8d8f92;
+}
+.our-action__subtitle {
+  font-size: 17px;
+
+  color: #292f36;
+}

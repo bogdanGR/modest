@@ -1,0 +1,23 @@
+.our-project {
+  background-color: $bg-color-primary;
+}
+.our-project__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.our-project__img {
+  margin: 0;
+  margin-right: 30px;
+  padding: 0;
+
+  &:nth-child(3n + 3) {
+    margin-right: 0;
+  }
+}
+.our-project__link {
+  display: block;
+
+  text-align: center;
+  text-decoration: none;
+  color:  $white;
+}
