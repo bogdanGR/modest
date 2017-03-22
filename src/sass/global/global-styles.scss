@@ -1,5 +1,5 @@
 body {
-  min-width: 320px;
+  margin: 0;
 
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
@@ -23,4 +23,7 @@ body {
 	height: 1px !important;
 	width: 1px !important;
 	overflow: hidden;
+}
+.hr {
+  margin-bottom: 90px;
 }

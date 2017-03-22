@@ -1,0 +1,15 @@
+.social-links {
+  position: relative;
+
+  &--about {
+    display: flex;
+
+    margin-bottom: 100px;
+  }
+  &--footer {
+    margin-left: auto;
+  }
+  &--content {
+    display: none;
+  }
+}

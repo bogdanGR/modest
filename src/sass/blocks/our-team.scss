@@ -1,0 +1,58 @@
+.our-team__wrapper {
+  display: flex;
+
+  margin-bottom: 100px;
+}
+.our-team__inner-wrapper {
+  position: relative;
+  &:hover .social-links--content {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+  }
+  &:hover .our-team__description {
+    background-color: #3a454d;
+    color: $white;
+  }
+  &:hover .our-team__name {
+    color: $white;
+  }
+  &:hover .our-team__position {
+    color: $white;
+  }
+}
+.our-team__title {
+  margin-bottom: 60px;
+}
+.our-team__description {
+  display: flex;
+  flex-direction: column;
+
+  width: 249px;
+  padding: 15px;
+  padding-right: 0;
+
+  background-color: #e1e6ea;
+}
+.our-team__img {
+  height: 300px;
+  margin: 0;
+  margin-right: 30px;
+  padding: 0;
+  &:nth-child(4) {
+    margin-right: 0;
+  }
+}
+.our-team__name {
+  font-size: 16px;
+  line-height: 35px;
+
+  color: #292f36;
+}
+.our-team__position {
+  font-size: 14px;
+  line-height: 26px;
+
+  color: #8d8f92;
+}
