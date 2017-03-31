@@ -1,3 +1,13 @@
 .social-links {
-  margin-left: auto;
+  position: relative;
+
+  &--about {
+    display: flex;
+  }
+  &--footer {
+    margin-left: auto;
+  }
+  &--content {
+    display: none;
+  }
 }

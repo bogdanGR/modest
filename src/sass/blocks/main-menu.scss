@@ -12,12 +12,33 @@
 .main-menu__item {
   list-style: none;
 }
-.main-menu__list {
-  padding: 0 40px;
+.main-menu__link {
+  margin-right: 40px;
+  padding: 8px 10px;
+
   font-size: 14px;
   line-height: 42px;
   font-weight: 400;
   text-decoration: none;
   color: #a4aead;
   text-transform: uppercase;
+
+  border: 2px solid transparent;
+  border-radius: 5px;
+
+  &:hover {
+    border: 2px solid #5b6168;
+    border-radius: 5px;
+  }
+}
+
+.main-menu__link--active {
+  color: #23b7a4;
+  border:  2px solid #23b7a4;
+  border-radius: 5px;
+  cursor: context-menu;
+
+  &:hover {
+    border:  2px solid #23b7a4;
+  }
 }

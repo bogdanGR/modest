@@ -1,6 +1,25 @@
 .feature {
   background-color: $bg-color-primary;
 }
+.feature__title {
+  padding-top: 75px;
+  padding-bottom: 60px;
+
+  color: $white;
+
+  &::before {
+    position: absolute;
+    content: '';
+    left: -20px;
+    top: 75px;
+
+    height: 35px;
+
+    border-left: 10px solid #4e5a62;
+
+  }
+}
+
 .feature__container {
   display: inline-block;
   vertical-align: top;
@@ -19,6 +38,7 @@
   padding: 0;
 }
 .feature__description {
+  margin: 20px 0;
   font-size: 18px;
   line-height: 42px;
 

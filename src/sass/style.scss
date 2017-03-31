@@ -2,6 +2,7 @@
 @import "global/mixins.scss";
 @import "global/variables.scss";
 @import "global/global-styles.scss";
+@import "blocks/title.scss";
 @import "blocks/header.scss";
 @import "blocks/main-menu.scss";
 @import "blocks/about.scss";
@@ -11,6 +12,5 @@
 @import "blocks/our-action.scss";
 @import "blocks/our-project.scss";
 @import "blocks/our-team.scss";
-@import "blocks/social-link.scss";
+@import "blocks/social-item.scss";
 @import "blocks/social-links.scss";
-@import "blocks/title.scss";

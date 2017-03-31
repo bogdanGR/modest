@@ -1,14 +1,42 @@
 .our-project {
+  padding-bottom: 20px;
+
   background-color: $bg-color-primary;
 }
 .our-project__wrapper {
   display: flex;
   flex-wrap: wrap;
+
+  padding-bottom: 60px;
+}
+.our-project__title {
+  padding-top: 75px;
+  padding-bottom: 60px;
+
+  color: $white;
+
+  &::before {
+    position: absolute;
+    content: '';
+    left: -20px;
+    top: 80px;
+
+    height: 35px;
+
+    border-left: 10px solid #4e5a62;
+
+  }
 }
 .our-project__img {
+  position: relative;
   margin: 0;
   margin-right: 30px;
+  margin-bottom: 20px;
   padding: 0;
+
+  &:hover {
+    opacity: 0.5;
+  }
 
   &:nth-child(3n + 3) {
     margin-right: 0;
@@ -16,8 +44,38 @@
 }
 .our-project__link {
   display: block;
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding: 8px 10px;
 
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
   color:  $white;
+  border: 2px solid $white;
+  border-radius: 5px;
+}
+.our-project__name-hover {
+  display: none;
+}
+.our-project__img:hover .our-project__name-hover {
+
+  position: absolute;
+  content: '';
+  bottom: 6px;
+  left: 0;
+
+  width: 345px;
+  display: block;
+
+  background-color: #292f36;
+  padding: 20px 0;
+  padding-left: 15px;
+
+  font-size: 18px;
+  line-height: 42px;
+  color: $white;
+
+  opacity: 1;
 }

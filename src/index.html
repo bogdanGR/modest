@@ -21,19 +21,22 @@
           </div>
           <ul class="main-menu">
             <li class="main-menu__item">
-              <a href="#" class="main-menu__list">About</a>
+              <a href="#" class="main-menu__link  main-menu__link--active">Home</a>
             </li>
             <li class="main-menu__item">
-              <a href="#" class="main-menu__list">Work</a>
+              <a href="#" class="main-menu__link">About</a>
             </li>
             <li class="main-menu__item">
-              <a href="#" class="main-menu__list">Team</a>
+              <a href="#" class="main-menu__link">Work</a>
             </li>
             <li class="main-menu__item">
-              <a href="#" class="main-menu__list">Services</a>
+              <a href="#" class="main-menu__link">Team</a>
             </li>
             <li class="main-menu__item">
-              <a href="#" class="main-menu__list">Contact</a>
+              <a href="#" class="main-menu__link">Services</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link">Contact</a>
             </li>
           </ul>
         </div>
@@ -51,6 +54,7 @@
   <main class="main">
     <section class="about  container">
       <h2 class="about__title  title">We are modest</h2>
+      <div class="about__wrapper">
       <div class="decription__texts">
         <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus sed molestie gravida. Crferm entum quismagna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna,
           quis lacusullamcorper at.
@@ -58,24 +62,18 @@
         <p class="about__another-text">Phasellus sollicitudin ante eros ornare, sit amet luctus lorem semper. Suspendisse posuere, quamdictum consectetur, augue metus pharetra tellus, eu feugiatloreg egetnisi. Cras ornare bibendum ante, ut bibendum odio convallis eget. vel sodales
           arcu vestibulum
         </p>
-        <ul class="about__social-links">
-          <li class="social-links__item">
-            <a href="#">Facebook</a>
-          </li>
-          <li class="social-links__item">
-            <a href="#">Twitter</a>
-          </li>
-          <li class="social-links__item">
-            <a href="#">google+</a>
-          </li>
-          <li class="social-links__item">
-            <a href="#">Ball</a>
-          </li>
-          <li class="social-links__item">
-            <a href="#">Be</a>
-          </li>
-        </ul>
-      </div>
+        </div>
+
+        <div class="social-links  social-links--about">
+          <a class="social-item  social-item--about  social-item--fb" href="#">Facebook</a>
+          <a class="social-item  social-item--about  social-item--tw" href="#">Twitter</a>
+          <a class="social-item  social-item--about  social-item--google" href="#">Google</a>
+          <a class="social-item  social-item--about  social-item--d" href="#">D</a>
+          <a class="social-item  social-item--about  social-item--be" href="#">Be</a>
+
+        </div>
+</div>
+
       <div class="about__sidebar">
         <ul class="about__list">
           <li class="about__item">
@@ -100,7 +98,7 @@
       </div>
     </section>
     <section class="our-team  container">
-      <h2 class="out-team__title  title">Meet the team</h2>
+      <h2 class="our-team__title  title">Meet the team</h2>
       <div class="our-team__wrapper">
         <div class="our-team__inner-wrapper">
           <figure class="our-team__img">
@@ -110,77 +108,53 @@
             <span class="our-team__name">Gloria Bromley</span>
             <span class="our-team__position">CEO and Founder</span>
           </div>
-          <ul class="social-list-hover">
-            <li class="social-list-hover__item">
-              <a class="social-list-hover__link" href="">twitter</a>
-            </li>
-            <li class="social-list-hover__item">
-              <a class="social-list-hover__link" href="">facebook</a>
-            </li>
-            <li class="social-list-hover__item">
-              <a class="social-list-hover__link" href="">linkedin</a>
-            </li>
-          </ul>
+          <div class="social-links  social-links--content">
+            <a class="social-item  social-item--content  social-item--tw" href="#">Twitter</a>
+            <a class="social-item  social-item--content  social-item--fb" href="#">Facebook</a>
+            <a class="social-item  social-item--content  social-item--in" href="#">linkedin</a>
+          </div>
         </div>
         <div class="our-team__inner-wrapper">
           <figure class="our-team__img">
-            <img src="img/gloria.jpg" alt="Gloria Bromley" width="263" height="300">
+            <img src="img/paul.jpg" alt="Paul Torres" width="263" height="300">
           </figure>
           <div class="our-team__description">
             <span class="our-team__name">Paul Torres</span>
             <span class="our-team__position">Head of Development</span>
           </div>
-          <ul class="social-list-hover">
-            <li class="social-list-hover__item">
-              <a class="social-list-hover__link" href="">twitter</a>
-            </li>
-            <li class="social-list-hover__item">
-              <a class="social-list-hover__link" href="">facebook</a>
-            </li>
-            <li class="social-list-hover__item">
-              <a class="social-list-hover__link" href="">linkedin</a>
-            </li>
-          </ul>
+          <div class="social-links  social-links--content">
+            <a class="social-item  social-item--content  social-item--tw" href="#">Twitter</a>
+            <a class="social-item  social-item--content  social-item--fb" href="#">Facebook</a>
+            <a class="social-item  social-item--content  social-item--in" href="#">linkedin</a>
+          </div>
         </div>
         <div class="our-team__inner-wrapper">
           <figure class="our-team__img">
-            <img src="img/gloria.jpg" alt="Gloria Bromley" width="263" height="300">
+            <img src="img/judith.jpg" alt="Judith Gillette" width="263" height="300">
           </figure>
           <div class="our-team__description">
             <span class="our-team__name">Judith Gillette</span>
             <span class="our-team__position">Graphic Desinger</span>
           </div>
-          <ul class="social-list-hover">
-            <li class="social-list-hover__item">
-              <a class="social-list-hover__link" href="">twitter</a>
-            </li>
-            <li class="social-list-hover__item">
-              <a class="social-list-hover__link" href="">facebook</a>
-            </li>
-            <li class="social-list-hover__item">
-              <a class="social-list-hover__link" href="">linkedin</a>
-            </li>
-          </ul>
+          <div class="social-links  social-links--content">
+            <a class="social-item  social-item--content  social-item--tw" href="#">Twitter</a>
+            <a class="social-item  social-item--content  social-item--fb" href="#">Facebook</a>
+            <a class="social-item  social-item--content  social-item--in" href="#">linkedin</a>
+          </div>
         </div>
         <div class="our-team__inner-wrapper">
           <figure class="our-team__img">
-            <img src="img/gloria.jpg" alt="Gloria Bromley" width="263" height="300">
+            <img src="img/delores.jpg" alt="Delores Reed" width="263" height="300">
           </figure>
           <div class="our-team__description">
             <span class="our-team__name">Delores Reed</span>
             <span class="our-team__position">Client Service Director</span>
           </div>
-          <ul class="social-list-hover">
-            <li class="social-list-hover__item">
-              <a class="social-list-hover__link" href="">twitter</a>
-            </li>
-            <li class="social-list-hover__item">
-              <a class="social-list-hover__link" href="">facebook</a>
-            </li>
-            <li class="social-list-hover__item">
-              <a class="social-list-hover__link" href="">linkedin</a>
-            </li>
-          </ul>
+          <div class="social-links  social-links--content">
+            <a class="social-item  social-item--content  social-item--tw" href="#">Twitter</a>
+            <a class="social-item  social-item--content  social-item--fb" href="#">Facebook</a>
+            <a class="social-item  social-item--content  social-item--in" href="#">linkedin</a>
+          </div>
         </div>
       </div>
     </section>
@@ -213,7 +187,7 @@
             <figcaption class="our-project__name-hover">partnership guidlines</figcaption>
           </figure>
         </div>
-        <a class="our-project__link" href="#">Show more</a>
+        <a class="our-project__link" href="#">Show me more</a>
       </div>
     </section>
     <section class="our-action  container">
@@ -313,23 +287,27 @@
       <div class="contact__wrapper  container">
         <div class="contact__text-wrapper">
 
-        <h2 class="contact__subtitle">Contact information</h2>
-        <p class="contact__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique nec dolor non, ornare sagittis dolor. Nulla vestibulum lacus sed molestie gravida.
-        </p>
-        <p class="contact__another-text">
-          Cras fermentum elit quis magna congue, <strong class="contact__bold-text">vel sodales</strong> arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus
-        </p>
+          <h2 class="contact__subtitle">Contact information</h2>
+          <p class="contact__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique nec dolor non, ornare sagittis dolor. Nulla vestibulum lacus sed molestie gravida.
+          </p>
+          <p class="contact__another-text">
+            Cras fermentum elit quis magna congue, <strong class="contact__bold-text">vel sodales</strong> arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus
+          </p>
         </div>
 
-        <form class="contact__form" action="">
-          <label for="name">Your name</label>
-          <input class="contact__input" type="text" id="name">
-          <label for="email">Your email</label>
-          <input class="contact__input" type="e-mail" id="email">
-          <span>Your message</span>
-          <textarea name="name" rows="8" cols="80"></textarea>
-          <button type="submit" name="button">Send message</button>
+        <form class="contact__form" action="#">
+          <div class="contact__label-wrapper">
+            <label class="contact__label" for="name">Your name</label>
+            <label class="contact__label  contact__label--mail" for="email">Your email</label>
+          </div>
+          <div class="contact__input-wrapper">
+            <input class="contact__input" type="text" id="name">
+            <input class="contact__input  contact__input--mail" type="e-mail" id="email">
+          </div>
+          <span class="contact__message">Your message</span>
+          <textarea class="contact__textarea" name="name" rows="6" cols="58"></textarea>
+          <button class="contact__btn" type="submit" name="button">Send message</button>
         </form>
       </div>
     </section>
@@ -338,12 +316,11 @@
     <div class="main-footer__wrapper  container">
       <p class="main-footer__copyright">© Copyright 2014 by PSD Booster. All Rights Reserved.</p>
 
-      <div class="social-links">
-        <a class="social-link  social-link--tw" href="#">Twitter</a>
-        <a class="social-link  social-link--fb" href="#">Facebook</a>
-        <a class="social-link  social-link--skype" href="#">Skype</a>
-        <a class="social-link  social-link--be" href="#">Be</a>
-        <a class="social-link  social-link--in" href="#">linkedin</a>
+      <div class="social-links  social-links--footer">
+        <a class="social-item  social-item--footer  social-item--tw" href="#">Twitter</a>
+        <a class="social-item  social-item--footer  social-item--fb" href="#">Facebook</a>
+        <a class="social-item  social-item--footer  social-item--be" href="#">Be</a>
+        <a class="social-item  social-item--footer  social-item--in" href="#">linkedin</a>
       </div>
     </div>
   </footer>

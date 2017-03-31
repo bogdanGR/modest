@@ -2,12 +2,10 @@
   @include clearfix;
 }
 .decription__texts {
-  float: left;
-  width: 655px;
-}
-.about__social-links {
-  float: left;
-  width: 350px;
+  width: 650px;
+  margin-bottom: 50px;
+
+  color: #8d8f92;
 }
 .about__sidebar {
   float: right;
@@ -17,4 +15,11 @@
 .about__list {
   margin: 0;
   padding: 0;
+}
+.about__wrapper {
+  float: left;
+  width: 655px;
+}
+.about__item {
+  list-style: none;
 }
