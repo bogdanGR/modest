@@ -34,9 +34,13 @@
   margin-bottom: 20px;
   padding: 0;
 
-  &:hover {
-    opacity: 0.5;
+  img {
+    &:hover {
+      opacity: 0.5;
+
+    }
   }
+
 
   &:nth-child(3n + 3) {
     margin-right: 0;
@@ -60,8 +64,8 @@
   display: none;
 }
 .our-project__img:hover .our-project__name-hover {
-
   position: absolute;
+  z-index: 2;
   content: '';
   bottom: 6px;
   left: 0;
@@ -78,4 +82,17 @@
   color: $white;
 
   opacity: 1;
+}
+.our-project__img:hover::after {
+  position: absolute;
+  content: '';
+  top: 30%;
+  left: 45%;
+  width: 20px;
+  height: 20px;
+  background-position: -136px -63px;
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+
+
 }

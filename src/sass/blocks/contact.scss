@@ -56,7 +56,7 @@
   text-transform: uppercase;
 }
 .contact__label--mail {
-  margin-left: 175px;
+  margin-left: 180px;
 }
 .contact__input-wrapper {
   display: flex;
@@ -71,7 +71,7 @@
   border-radius: 4px;
 }
 .contact__input--mail {
-  margin-left: 15px;
+  margin-left: 19px;
 }
 .contact__message {
   font-size: 14px;
@@ -97,4 +97,16 @@
   border: none;
   color: $white;
   cursor: pointer;
+}
+.contact__subtitle {
+  margin-top: 30px;
+
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+
+  text-transform: uppercase;
+}
+.contact__another-text {
+  margin-bottom: 100px;
 }

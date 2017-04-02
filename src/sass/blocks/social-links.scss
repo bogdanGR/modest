@@ -3,6 +3,8 @@
 
   &--about {
     display: flex;
+
+    margin-bottom: 130px;
   }
   &--footer {
     margin-left: auto;
@@ -10,4 +12,9 @@
   &--content {
     display: none;
   }
+}
+.hr {
+  margin-bottom: 70px;
+
+  background-color: #dde1e4;
 }
